@@ -1,0 +1,6 @@
+perplexity: 5     计算时间: 16.6098 秒
+perplexity: 10     计算时间: 17.0385 秒
+perplexity: 20     计算时间: 18.7774 秒
+perplexity: 40     计算时间: 22.1449 秒
+perplexity: 80     计算时间: 27.9373 秒
+perplexity: 150     计算时间: 35.0158 秒
