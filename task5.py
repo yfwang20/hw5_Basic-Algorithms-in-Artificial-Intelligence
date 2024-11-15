@@ -57,7 +57,7 @@ k_values = [5, 10, 20, 40, 80, 150]
 # k_values = [4,5,6,7,8,9]
 
 # 设置 min_dist 参数
-min_dist = 0.1
+min_dist = 0.01
 
 # 存储结果和时间
 results = {}
@@ -83,7 +83,7 @@ all_end_time = time.time()
 all_elapsed_time = all_end_time - all_start_time
 print(f"UMAP time = {all_elapsed_time:.4f}s")
 
-save_dir = f"./task5/time={all_elapsed_time:.4f}s"
+save_dir = f"./task5/time={all_elapsed_time:.4f}s min_dist={min_dist}"
 os.makedirs(save_dir, exist_ok=True)
 
 # 创建一个图形窗口
